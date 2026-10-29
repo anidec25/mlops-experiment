@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment variables
+.env
+.env.*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local large datasets
+data/
+*.csv
+
+# Local model artifacts
+models/
+*.pkl
+*.joblib
+
+# Operating system files
+.DS_Store
