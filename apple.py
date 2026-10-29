@@ -1,3 +1,6 @@
-print("This is my file called apple")
-print("This is my new edit")
-print("Hello World")
+def calculate_total_apples(baskets, apples_per_basket):
+    return baskets * apples_per_basket
+
+
+if __name__ == "__main__":
+    print("Total apples:", calculate_total_apples(5, 10))
